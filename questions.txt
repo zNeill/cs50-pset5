@@ -1,0 +1,14 @@
+0.  A pulmonary lung disease incurred by inhaling coal ash. It's the longest word in our dictionary.
+1.  Getrusage returns usage/performance statistics
+2.  16
+3.  Both before and after instances of the struct are used in order to calcuate (by subtraction) usage before and after loading the dictionary.
+4.  Each character of the text in the command line argument for text is inserted into file FP character by character, ignoring all non-alpha characters except the apostrophe.
+    If a word contains a number it is ignored for checking. The characters that meet the aforementioned criteria are added to an array called word. When the script detects the end of the word, it passes the word to to the misspelled function,
+    which returns true or false. The script continues until there are no more words/characters.
+5.  Usage of fgetc is preferable to scanning for an entire string, as it allows for more precise control of allowed inputs within a string. For example, fscan with a string wouldn't
+    as easily allow detection of strings with numeric characters in them.
+6.  Aliens told you to? I actually see them loaded as doubles not constant so I'm quite confused.
+7.  I used an array of node pointers, each node contains a word of size LEGNTH+1 and a pointer to the next node in the linked list.
+8.  I don't remember the exact number but I think it was around 0.6s for the first time.
+9.  I changed the size of my hashtable. I also tried a few different hash functions.
+10. I really can't figure out how to make my unload work faster, nor can I optimize load/check beyond messing with the hashtable size.
